@@ -6,9 +6,9 @@ Hlavni stranka / home
   -	O nás (firma)
   -	O nás (videohry)
   -	Blog
-    o	Blog informace 1
-    o	Blog informace 2
-    o	Blog informace 3
+    -	Blog informace 1
+    -	Blog informace 2
+    -	Blog informace 3
   -	Nejakej legalni bordel s pravama a co ne
   -	Updates ohledne videoher
   -	Ruzny spritework
