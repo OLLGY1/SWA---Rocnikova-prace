@@ -1,5 +1,7 @@
-# SWA - Rocnikova prace
+# SWA - Rocnikova prace v0.1
 Tema: Jakoze jsem firma co dela videohry ze jo
+Uplne nahore masivne veliky svoje logo 
+pod nim navigace na podstranky
 Strankova struktura:
 Hlavni stranka / home
   -	Kontakt s formou (php)
