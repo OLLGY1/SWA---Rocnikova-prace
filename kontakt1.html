@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PVS - kontakt</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+</head>
+<body>
+<br>
+<h1> Vyplňte tento formulář, pokud nás chcete kontaktovat:</h1>
+<form action ="data1.php" method="post">
+<label for="jmeno">Jméno:</label>
+<input type="text" name="jmeno" id="jmeno" required>
+<br>
+<label for="prijmeni">Příjmení:</label>
+<input type="text" name="prijmeni" id="prijmeni" required>
+<br>
+<label for="email">Email:</label>
+<input type="email" name="email" id="email" value="@" required>
+<br>
+<label for="prace"> Kontaktuju kvůli práci:<label>
+<input type="checkbox" name="prace" id="prace">
+<br>
+<label for="stiznost"> Kontaktuju kvůli problému s jedním z produktů:<label>
+<input type="checkbox" name="stiznost" id="stiznost">
+<br>
+<label for="copyright"> Kontaktuju problémech s copyrightem:<label>
+<input type="checkbox" name="copyright" id="copyright">
+<br>
+<label for="poznamka">Popis důvodu kontaktování:</label>
+<textarea name="poznamka" id="poznamka" required></textarea> 
+<br>
+<input class="button" type="submit" value="Poslat žádost o kontakt"><br>
+</form>
+<br>
+<div class="leva"><a href="index.html"> Domů</a></div>
+<br>
+</body>
+</html>
+

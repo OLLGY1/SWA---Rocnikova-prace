@@ -1,0 +1,235 @@
+/* Styly */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+ h1 {
+    color: #ffffff;
+    font-family: "Tilt Neon", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "XROT" 0,
+    "YROT" 0;
+    font-size: 40px;
+    text-shadow: 2px 2px gray;
+}
+ h2 {
+    color: #ffffff;
+    font-family: "Tilt Neon", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "XROT" 0,
+    "YROT" 0;
+    font-size: 25px;
+    text-shadow: 2px 2px gray;
+
+}
+
+p {
+    color: #ffffff;
+    font-family: "Tilt Neon", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "XROT" 0,
+    "YROT" 0;
+    font-size: 15px;
+    text-shadow: 1px 1px gray;
+
+}
+p.blog {    
+    color: #ffffff;
+    font-family: "Tilt Neon", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "XROT" 0,
+    "YROT" 0;
+    font-size: 20px;
+    text-shadow: 1px 1px gray;
+} 
+
+progress {
+    width: 500px;
+    height: 30px;
+
+}
+/*
+h1:hover {
+    color: #00e9c2;
+    cursor: pointer;
+    position: relative;
+    animation-name: ZLevaDoPrava;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes ZLevaDoPrava {
+    from {left: 0px; width: 400px; height: 100%;}
+    to {left: 20px; width: 600px; height: 125%;}
+}*/
+
+@keyframes NacteniStranky {
+  from { transform: scale(0); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+div {
+  font-family: "Tilt Neon", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "XROT" 0,
+    "YROT" 0;
+}
+
+html, body {
+    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+label {
+    color: #ffffff;
+    font-family: "Tilt Neon", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "XROT" 0,
+    "YROT" 0;
+    font-size: 25px;
+    text-shadow: 2px 2px gray;
+}
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* form {
+    background-color: #00e9c2;
+    padding: 20px;
+    border-radius: 20px;
+    border-color: black;
+    border-width: 5px;
+    border-style: dashed;
+    width: 20%;
+    margin: auto;
+    
+} */
+img.start {
+margin: auto;
+display: block;
+text-align: center;
+height: 50%;
+width: 50%;
+  animation-name: NacteniStranky;
+  animation-duration: 0.5s;
+  animation-timing-function: cubic-bezier(0.68,-0.55,0.27,1.55);
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+
+/* img.text {
+margin: auto;
+left: 0px;
+transition: 0.3s;
+}
+img.text:hover {
+    cursor: pointer;
+    position: relative;
+    left: 50px;
+}
+*/
+
+
+a {
+    text-decoration: none;
+    width:500px;
+    display: inline-block;
+    max-width: 500px;
+    overflow: hidden;
+    color: black;
+}
+
+div.leva {
+    color: #000000;
+    position: relative;
+    font-size: 40px;
+    font-weight: bold;
+    background-image: url(listecek.png);
+    width: 500px;
+    height: 60px;
+    left: 0px;
+    transition: 0.2s;
+    text-indent: 10px;
+    text-align: left;
+    transform: translateX(-75px);
+
+}
+div.leva:hover {
+    color: #000000;
+    cursor: pointer;
+    position: relative;
+    left: 75px;
+/*    animation-name: ZLevaDoPrava;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+*/
+}
+
+div.prava {
+    color: #000000;
+    position: relative;
+    font-size: 40px;
+    font-weight: bold;
+    background-image: url(listecek2.png);
+    width: 500px;
+    height: 60px;
+    right: 0px;
+    transition: 0.2s;
+    text-align: right;
+    transform: translateX(75px);
+    margin: 0px 0px 0px auto
+}
+div.prava:hover {
+    color: #000000;
+    cursor: pointer;
+    position: relative;
+    right: 75px;
+}
+
+a.border {
+border-style: solid;
+border-color: gray;
+padding: 20px;
+margin: 10px;
+    border-radius: 25px;
+}
+div.container{
+    display:flex;
+    margin: 20px;
+
+}
+a div {
+    color: #ffffff;
+    font-family: "Tilt Neon", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "XROT" 0,
+    "YROT" 0;
+    font-size: 25px;
+    text-shadow: 2px 2px gray;
+}
