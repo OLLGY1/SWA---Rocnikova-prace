@@ -1,4 +1,7 @@
 # SWA - Rocnikova prace v0.1
+
+https://sw.opent2.com/sste/it2a/studenti/patrikondruska/projekt_web/index.html
+
 Tema: Jakoze jsem firma co dela videohry ze jo
 Uplne nahore masivne veliky svoje logo 
 pod nim navigace na podstranky
